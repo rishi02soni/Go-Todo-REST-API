@@ -1,0 +1,2 @@
+go mod init go-todo-api
+go get github.com/gorilla/mux
