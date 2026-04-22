@@ -25,34 +25,34 @@ Beginner-friendly and easy to extend.
 ---
 
 ## 📁 Project Structure
-
+```
 go-todo-api/
 │── main.go
 │── go.mod
-
+```
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
-
+```
 git clone https://github.com/your-username/go-todo-api.git  
 cd go-todo-api
-
+```
 ### 2. Install Dependencies
-
+```
 go mod tidy
-
+```
 ### 3. Run the Server
-
+```
 go run main.go
-
+```
 ---
 
 ## 🌐 Server
-
+```
 http://localhost:8000
-
+```
 ---
 
 ## 📡 API Endpoints
@@ -102,9 +102,9 @@ DELETE /todos/{id}
 ## 🧪 Testing
 
 Use Postman, Thunder Client, or curl:
-
+```
 curl -X GET http://localhost:8000/todos
-
+```
 ---
 
 ## 🚀 Future Improvements
